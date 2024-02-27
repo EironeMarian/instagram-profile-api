@@ -5,7 +5,7 @@ ini_set('error_reporting', 0);
 $username = $_GET["username"];
 
 if (!ctype_alnum($username)) {
-        die(":D user_erro");
+        die(" example xxxxxxx.com/instagram.php?username=zuck ");
     }
 $url = 'https://pixwox.net/profile/' . $username;
 $html = file_get_contents($url);
